@@ -1,0 +1,47 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+     "editor.detectIndentation": false,
+     "editor.wrappingIndent": "none",
+     "editor.renderIndentGuides": true,
+     "editor.tabSize": 4,
+     "editor.rulers": [32, 64],
+
+     "explorer.openEditors.visible": 0,
+
+     "files.autoSave": "onFocusChange",
+     "files.autoSaveDelay": 1000,
+
+     "git.enabled": false,
+
+     "alignment.leftSeparators": [
+         ":"
+     ],
+
+     "align.rightSeparators": [
+         "=",
+         "+=",
+         "-=",
+         "*=",
+         "/=",
+         "?=",
+         "|=",
+         "%=",
+         ".=",
+         "=>"
+     ],
+     "align.spaceSeparators": [
+         "=",
+         "+=",
+         "-=",
+         "*=",
+         "/=",
+         "?=",
+         "|=",
+         "%=",
+         ".=",
+         "=>"
+     ],
+     "align.ignoreSeparators": [
+         "::"
+     ]
+}
