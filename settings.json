@@ -11,7 +11,14 @@
      "files.autoSave": "onFocusChange",
      "files.autoSaveDelay": 1000,
 
-     "git.enabled": false,
+    //  "git.enabled": false,
+
+    "search.exclude": {
+        "**/distribution": true,
+        "**/node_modules": true,
+        "**/tmp": true,
+        "**/temp": true
+    },
 
      "alignment.leftSeparators": [
          ":"
