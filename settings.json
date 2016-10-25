@@ -5,6 +5,7 @@
      "editor.renderIndentGuides": true,
      "editor.tabSize": 4,
      "editor.rulers": [32, 64],
+     "editor.lineHeight": 32,
 
      "explorer.openEditors.visible": 0,
 
