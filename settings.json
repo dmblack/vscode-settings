@@ -24,37 +24,5 @@
         "**/node_modules": true,
         "**/tmp": true,
         "**/temp": true
-    },
-
-     "alignment.leftSeparators": [
-         ":"
-     ],
-
-     "align.rightSeparators": [
-         "=",
-         "+=",
-         "-=",
-         "*=",
-         "/=",
-         "?=",
-         "|=",
-         "%=",
-         ".=",
-         "=>"
-     ],
-     "align.spaceSeparators": [
-         "=",
-         "+=",
-         "-=",
-         "*=",
-         "/=",
-         "?=",
-         "|=",
-         "%=",
-         ".=",
-         "=>"
-     ],
-     "align.ignoreSeparators": [
-         "::"
-     ]
+    }
 }
