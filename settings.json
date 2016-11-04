@@ -15,14 +15,18 @@
      "files.exclude": {
         "**/distribution": true,
         "**/node_modules": true,
+        "**/snippets": true,
         "**/tmp": true,
-        "**/temp": true
+        "**/temp": true,
+        "**/workspaceStorage": true
      },
 
     "search.exclude": {
         "**/distribution": true,
         "**/node_modules": true,
+        "**/snippets": true,
         "**/tmp": true,
-        "**/temp": true
+        "**/temp": true,
+        "**/workspaceStorage": true
     }
 }
