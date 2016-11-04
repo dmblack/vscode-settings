@@ -1,11 +1,17 @@
 # vscode-settings
 This is just a repository for my VS Code favorite settings, which then allows me to properly communciate them between all my development devices and environments.
 
-Simply click -> File -> Preferences -> User Settings (Or Workspace, should you want them project specific), and paste the file settings in.
+    Installation:
 
-VSCode stores user settings.json in ~/.config/Code/User - however it should be empty to begin with.
+Copy / Paste (Easiest)
+1) Open VSCode
+2) Click: File -> Preferences -> User Settings (Or Workspace, should you want them project specific)
+3) Pase in configuration
 
-    mv ~/.config/Code/User ~/.config/Code/User.temp
-    git clone https://github.com/dmblack/vscode-settings.git ~/.config/Code/User
-    cp -Rpv ~/.config/Code/User.temp/snippets ~/.config/Code/User/
-    cp -Rpv ~/.config/Code/User.temp/workspaceStorage ~/.config/Code/User/
+Clone to Config Path
+    
+Note: VSCode stores user settings.json in (Linux) ~/.config/Code/User - however it should be empty to begin with.
+1) mv ~/.config/Code/User ~/.config/Code/User.temp
+2) git clone https://github.com/dmblack/vscode-settings.git ~/.config/Code/User
+3) cp -Rpv ~/.config/Code/User.temp/snippets ~/.config/Code/User/
+4) cp -Rpv ~/.config/Code/User.temp/workspaceStorage ~/.config/Code/User/
