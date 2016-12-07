@@ -17,6 +17,6 @@ Linux:
 * cp -Rpv ~/.config/Code/User.temp/[ws]* ~/.config/Code/User/
 
 MAC: 
-* mv $HOME/Library/Application Support/Code/User $HOME/Library/Application Support/Code/User.temp
-* git clone https://github.com/dmblack/vscode-settings.git $HOME/Library/Application Support/Code/User/
-* cp -rpv $HOME/Library/Application Support/Code/User.temp/[ws]* $HOME/Library/Application Support/Code/User/
+* mv $HOME/Library/Application\ Support/Code/User $HOME/Library/Application\ Support/Code/User.temp
+* git clone https://github.com/dmblack/vscode-settings.git $HOME/Library/Application\ Support/Code/User/
+* cp -Rpv $HOME/Library/Application\ Support/Code/User.temp/[ws]* $HOME/Library/Application\ Support/Code/User/
