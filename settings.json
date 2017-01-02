@@ -1,32 +1,35 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-     "editor.detectIndentation": false,
-     "editor.wrappingIndent": "none",
-     "editor.renderIndentGuides": true,
-     "editor.tabSize": 4,
-     "editor.rulers": [32, 64],
-     "editor.lineHeight": 32,
+  "editor.detectIndentation": false,
+  "editor.lineHeight": 32,
+  "editor.renderIndentGuides": true,
+  "editor.rulers": [
+    50,
+    72,
+    128
+  ],
+  "editor.tabSize": 2,
+  "editor.wrappingIndent": "none",
 
-     "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 0,
 
-     "files.autoSave": "onFocusChange",
-     "files.autoSaveDelay": 1000,
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/distribution": true,
+    "**/node_modules": true,
+    "**/snippets": true,
+    "**/tmp": true,
+    "**/temp": true,
+    "**/workspaceStorage": true
+  },
 
-     "files.exclude": {
-        "**/distribution": true,
-        "**/node_modules": true,
-        "**/snippets": true,
-        "**/tmp": true,
-        "**/temp": true,
-        "**/workspaceStorage": true
-     },
-
-    "search.exclude": {
-        "**/distribution": true,
-        "**/node_modules": true,
-        "**/snippets": true,
-        "**/tmp": true,
-        "**/temp": true,
-        "**/workspaceStorage": true
-    }
+  "search.exclude": {
+    "**/distribution": true,
+    "**/node_modules": true,
+    "**/snippets": true,
+    "**/tmp": true,
+    "**/temp": true,
+    "**/workspaceStorage": true
+  }
 }
