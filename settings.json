@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "editor.detectIndentation": false,
-  "editor.lineHeight": 32,
+  "editor.fontFamily": "monospace, 'Droid Sans Mono', 'Courier New', 'Droid Sans Fallback'",
   "editor.renderIndentGuides": true,
   "editor.rulers": [
     50,
@@ -24,6 +24,8 @@
     "**/workspaceStorage": true
   },
 
+  "git.confirmSync": false,
+
   "search.exclude": {
     "**/distribution": true,
     "**/node_modules": true,
@@ -31,5 +33,9 @@
     "**/tmp": true,
     "**/temp": true,
     "**/workspaceStorage": true
-  }
+  },
+
+  "window.zoomLevel": 0,
+
+  "workbench.activityBar.visible": true
 }
