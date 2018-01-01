@@ -1,7 +1,8 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "editor.detectIndentation": false,
-  "editor.lineHeight": 32,
+  "editor.fontFamily": "monospace",
+  "editor.fontSize": 11,
   "editor.renderIndentGuides": true,
   "editor.rulers": [
     50,
@@ -10,9 +11,7 @@
   ],
   "editor.tabSize": 2,
   "editor.wrappingIndent": "none",
-
   "explorer.openEditors.visible": 0,
-
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 1000,
   "files.exclude": {
@@ -23,7 +22,6 @@
     "**/temp": true,
     "**/workspaceStorage": true
   },
-
   "search.exclude": {
     "**/distribution": true,
     "**/node_modules": true,
@@ -31,5 +29,6 @@
     "**/tmp": true,
     "**/temp": true,
     "**/workspaceStorage": true
-  }
+  },
+  "git.confirmSync": false
 }
