@@ -31,5 +31,6 @@
     "**/workspaceStorage": true
   },
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true
+  "workbench.activityBar.visible": true,
+  "git.autofetch": true
 }
