@@ -21,7 +21,9 @@
     "**/temp": true,
     "**/workspaceStorage": true
   },
+  "git.autofetch": true,
   "git.confirmSync": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "search.exclude": {
     "**/distribution": true,
     "**/node_modules": true,
@@ -31,6 +33,5 @@
     "**/workspaceStorage": true
   },
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
-  "git.autofetch": true
+  "workbench.activityBar.visible": true
 }
