@@ -2,6 +2,7 @@
 {
   "editor.detectIndentation": false,
   "editor.fontFamily": "monospace, 'Droid Sans Mono', 'Courier New', 'Droid Sans Fallback'",
+  "editor.minimap.enabled": false,
   "editor.renderIndentGuides": true,
   "editor.rulers": [
     50,
